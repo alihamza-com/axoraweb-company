@@ -170,18 +170,19 @@ const Header = () => {
                   </ul>
                 </nav>
               </div>
-              <div className="flex items-center justify-end pr-16 lg:pr-0">
-                <Link
-                  href={nextPage.path}
-                  className="bg-primary hover:bg-primary/90 inline-block rounded-xs px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out dark:bg-white/10 dark:text-white dark:hover:bg-white/20"
-                >
-                  Get Started
-                </Link>
+              <div className="flex flex-col items-center justify-center pr-0 lg:flex-row lg:items-center lg:justify-end lg:pr-16 space-y-4 lg:space-y-0 lg:space-x-4">
+  <Link
+    href={nextPage.path}
+    className="bg-primary hover:bg-primary/90 inline-block rounded-xs px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out dark:bg-white/10 dark:text-white dark:hover:bg-white/20"
+  >
+    Get Started
+  </Link>
 
-                <div>
-                  <ThemeToggler />
-                </div>
-              </div>
+  <div>
+    <ThemeToggler />
+  </div>
+</div>
+
             </div>
           </div>
         </div>
