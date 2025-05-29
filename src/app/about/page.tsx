@@ -5,8 +5,30 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Page | Free Next.js Template for Startup and SaaS",
-  description: "This is About Page for Startup Nextjs Template",
+  title: "About Us | AxoraWeb - Web, App & Software Development Experts",
+  description:
+    "Learn about AxoraWeb — a passionate team of developers, designers, and strategists dedicated to building high-quality digital solutions for startups and enterprises.",
+  keywords: [
+    "about us",
+    "web development",
+    "app development",
+    "software development",
+    "custom software",
+    "full-stack development", 
+    "digital solutions",
+    "tech company",
+    "Ali Hamza",
+    "AxoraWeb",
+  ],
+  authors: [{ name: "Ali Hamza", url: "https://ali.hamza.dev" }],
+  openGraph: {
+    title: "About Us | AxoraWeb - Web, App & Software Development Experts",
+    description:
+      "Learn about AxoraWeb — a passionate team of developers, designers, and strategists dedicated to building high-quality digital solutions for startups and enterprises.",
+    url: "https://axoraweb.com/about",
+    siteName: "AxoraWeb",
+  }
+
   // other metadata
 };
 

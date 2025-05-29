@@ -4,8 +4,18 @@ import Contact from "@/components/Contact";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact Page | Free Next.js Template for Startup and SaaS",
-  description: "This is Contact Page for Startup Nextjs Template",
+  title: "Contact Us | AxoraWeb - Custom Web & App Development",
+  description:
+    "Get in touch with AxoraWeb to discuss your next web, mobile, or software development project. We're here to turn your ideas into digital success.",
+  keywords: "contact, web development, app development, software solutions, AxoraWeb",
+  authors: [{ name: "Ali Hamza", url: "https://ali.hamza.dev" }],
+  openGraph: {
+    title: "Contact Us | AxoraWeb - Custom Web & App Development", 
+    description:
+      "Get in touch with AxoraWeb to discuss your next web, mobile, or software development project. We're here to turn your ideas into digital success.",
+    url: "https://axoraweb.com/contact",
+    siteName: "AxoraWeb",
+  }
   // other metadata
 };
 
