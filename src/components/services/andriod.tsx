@@ -189,8 +189,9 @@ export default function MobileAppServices() {
           className="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg text-center"
         >
           <p className="text-gray-700 dark:text-gray-300 italic mb-4">
-            "{testimonials[testimonialIndex].feedback}"
-          </p>
+  {testimonials[testimonialIndex].feedback}
+</p>
+
           <p className="font-semibold text-gray-900 dark:text-white">
             — {testimonials[testimonialIndex].name}
           </p>

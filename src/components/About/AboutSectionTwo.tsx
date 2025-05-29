@@ -31,7 +31,7 @@ const AboutSectionTwo = () => {
                   Clean, Scalable Code
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  At AxoraWeb, we write code that's not just functional — it's future-proof. Built with scalability, maintainability, and performance in mind, our solutions ensure long-term success for your business.
+                At AxoraWeb, we write code that&apos;s not just functional — it&apos;s future-proof. Built with scalability, maintainability, and performance in mind, our solutions ensure long-term success for your business.
                 </p>
               </div>
               <div className="mb-9">

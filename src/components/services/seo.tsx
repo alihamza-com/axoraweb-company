@@ -87,7 +87,7 @@ const faqs = [
 
 export default function SEOServicesPage() {
   const [selectedService, setSelectedService] = useState(null);
-  const [activeFaq, setActiveFaq] = useState(null);
+  const [activeFaq, setActiveFaq] = useState<number | null>(null);
   const [testimonialIndex, setTestimonialIndex] = useState(0);
 
   useEffect(() => {
@@ -178,9 +178,10 @@ export default function SEOServicesPage() {
           transition={{ duration: 0.6 }}
           className="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg text-center"
         >
-          <p className="text-gray-700 dark:text-gray-300 italic mb-4">
-            "{testimonials[testimonialIndex].feedback}"
-          </p>
+         <p className="text-gray-700 dark:text-gray-300 italic mb-4">
+  {testimonials[testimonialIndex].feedback}
+      </p>
+
           <p className="font-semibold text-gray-900 dark:text-white">
             — {testimonials[testimonialIndex].name}
           </p>
