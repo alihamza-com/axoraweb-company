@@ -24,16 +24,24 @@ export const metadata: Metadata = {
     "Ali Hamza",
     "AxoraWeb",
   ],
-  authors: [{ name: "Ali Hamza", url: "https://ali.hamza.dev" }],
+  authors: [{ name: "Ali Hamza", url: "https://axoraweb.vercel.app" }],
   openGraph: {
     title: "AxoraWeb | Custom Software, Web & Mobile App Development Company",
     description:
       "AxoraWeb is a leading tech company offering custom software development, web design, mobile app solutions, and SaaS platforms for startups and enterprises.",
-    url: "https://axoraweb.com",
+    url: "https://axoraweb.vercel.app",
     siteName: "AxoraWeb",
   },
     // other metadata
-};
+  robots: {
+    index: true,
+    follow: true,
+  },
+  alternates: {
+    canonical: "https://axoraweb.vercel.app",
+    languages: {
+      "en-US": "https://axoraweb.vercel.app",}
+}}
 
 export default function Home() {
   return (

@@ -30,6 +30,10 @@ export const metadata: Metadata = {
   }
 
   // other metadata
+  , robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 const AboutPage = () => {

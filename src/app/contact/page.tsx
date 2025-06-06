@@ -15,8 +15,12 @@ export const metadata: Metadata = {
       "Get in touch with AxoraWeb to discuss your next web, mobile, or software development project. We're here to turn your ideas into digital success.",
     url: "https://axoraweb.com/contact",
     siteName: "AxoraWeb",
-  }
+  },
   // other metadata
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 const ContactPage = () => {

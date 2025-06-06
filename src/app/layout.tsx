@@ -37,6 +37,7 @@ export default function RootLayout({
             {children}
             <Footer />
             <ScrollToTop />
+            
           </Providers>
         </LoaderProvider>
       </body>
