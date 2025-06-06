@@ -61,7 +61,7 @@ const Header = () => {
         <div className="container">
           <div className="relative -mx-4 flex items-center justify-between">
           <div className="w-40 max-w-full px-4 xl:mr-12">
-  <a
+  <link
     href="/"
     className={`header-logo block w-full ${
       sticky ? "py-1 lg:py-1" : "py-2"
@@ -81,7 +81,7 @@ const Header = () => {
       height={0}
       className="hidden w-auto h-auto dark:block"
     />
-  </a>
+  </link>
 </div>
 
             <div className="flex w-full items-center justify-between px-4">
@@ -120,7 +120,7 @@ const Header = () => {
                     {menuData.map((menuItem, index) => (
                       <li key={index} className="group relative">
                         {menuItem.path ? (
-                          <a
+                          <link
                             href={menuItem.path}
                             className={`flex py-2 text-base lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 ${
                               usePathName === menuItem.path
@@ -129,7 +129,7 @@ const Header = () => {
                             }`}
                           >
                             {menuItem.title}
-                          </a>
+                          </link>
                         ) : (
                           <>
                             <p
@@ -154,13 +154,13 @@ const Header = () => {
                               }`}
                             >
                               {menuItem.submenu.map((submenuItem, index) => (
-                                <a
+                                <link
                                   href={submenuItem.path}
                                   key={index}
                                   className="text-dark hover:text-primary block rounded-sm py-2.5 text-sm lg:px-3 dark:text-white/70 dark:hover:text-white"
                                 >
                                   {submenuItem.title}
-                                </a>
+                                </link>
                               ))}
                             </div>
                           </>
