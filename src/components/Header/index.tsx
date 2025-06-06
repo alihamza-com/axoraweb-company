@@ -2,6 +2,7 @@
 import Image from "next/image";
 import logo from "/public/images/logo/logo.png";
 import { usePathname } from "next/navigation";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
@@ -61,7 +62,7 @@ const Header = () => {
         <div className="container">
           <div className="relative -mx-4 flex items-center justify-between">
           <div className="w-40 max-w-full px-4 xl:mr-12">
-  <link
+  <Link
     href="/"
     className={`header-logo block w-full ${
       sticky ? "py-1 lg:py-1" : "py-2"
@@ -81,7 +82,7 @@ const Header = () => {
       height={0}
       className="hidden w-auto h-auto dark:block"
     />
-  </link>
+  </Link>
 </div>
 
             <div className="flex w-full items-center justify-between px-4">
@@ -120,7 +121,7 @@ const Header = () => {
                     {menuData.map((menuItem, index) => (
                       <li key={index} className="group relative">
                         {menuItem.path ? (
-                          <link
+                          <Link
                             href={menuItem.path}
                             className={`flex py-2 text-base lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 ${
                               usePathName === menuItem.path
@@ -129,7 +130,7 @@ const Header = () => {
                             }`}
                           >
                             {menuItem.title}
-                          </link>
+                          </Link>
                         ) : (
                           <>
                             <p
