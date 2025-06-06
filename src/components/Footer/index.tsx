@@ -94,7 +94,10 @@ const Footer = () => {
                 <ul>
                   <li>
                     <a
-                      href="/https://www.facebook.com/axoraweb"
+                      href="https://www.facebook.com/axoraweb"
+                      aria-label="Facebook"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Facebook
@@ -102,7 +105,10 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="/https://www.instagram.com/in/axoraweb"
+                      href="https://www.instagram/axoraweb"
+                      aria-label="Facebook"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Instagram
@@ -110,7 +116,10 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="/https://www.linkdin.com/in/axoraweb"
+                      href="https://www.linkdin.com/in/axoraweb"
+                      aria-label="Facebook"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Linkdin
