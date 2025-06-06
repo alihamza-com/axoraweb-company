@@ -93,28 +93,28 @@ const Footer = () => {
                 </h2>
                 <ul>
                   <li>
-                    <Link
+                    <a
                       href="/https://www.facebook.com/axoraweb"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Facebook
-                    </Link>
+                    </a>
                   </li>
                   <li>
-                    <Link
+                    <a
                       href="/https://www.instagram.com/in/axoraweb"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Instagram
-                    </Link>
+                    </a>
                   </li>
                   <li>
-                    <Link
+                    <a
                       href="/https://www.linkdin.com/in/axoraweb"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Linkdin
-                    </Link>
+                    </a>
                   </li>
                 </ul>
               </div>
