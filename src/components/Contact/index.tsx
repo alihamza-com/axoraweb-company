@@ -40,10 +40,10 @@ const Contact = () => {
           <div className="w-full px-4 lg:w-7/12 xl:w-8/12">
             <div className="mb-12 rounded-xs bg-white px-8 py-11 shadow-three dark:bg-gray-dark sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]">
               <h2 className="mb-3 text-2xl font-bold text-black dark:text-white sm:text-3xl">
-                Need Help? Open a Ticket
+                Enroll Now
               </h2>
               <p className="mb-12 text-base font-medium text-body-color">
-                Our support team will get back to you ASAP via email.
+                Send Email to us for any query or question. We will get back to you as soon as possible.
               </p>
               <form ref={formRef} onSubmit={handleSubmit}>
                 <div className="-mx-4 flex flex-wrap">
@@ -94,7 +94,7 @@ const Contact = () => {
                       type="submit"
                       className="rounded-xs bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90"
                     >
-                      Submit Ticket
+                      Submit Email
                     </button>
                   </div>
                 </div>

@@ -16,7 +16,7 @@ const Hero = () => {
                 initial={{ opacity: 0, y: -30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, ease: "easeOut" }}
-                className="mb-5 font-sans text-lg leading-tight font-bold text-black sm:text-xl md:text-2xl"
+                className="mb-5 font-sans text-lg leading-tight font-bold text-black sm:text-xl md:text-2xl dark:text-white "
               >
                 Welcome to AxoraWeb — Powering Your Digital Future with Smart
                 Backend Solutions
@@ -26,7 +26,7 @@ const Hero = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.2, duration: 0.6 }}
-                className="mb-12 text-base leading-relaxed text-gray-700 sm:text-lg md:text-xl dark:text-gray-500"
+                className="mb-12 text-base leading-relaxed text-gray-700 sm:text-lg md:text-xl dark:text-white/80"
               >
                 Join us at AxoraWeb, where modern technologies meet expert
                 craftsmanship to build web applications that perform
