@@ -5,45 +5,68 @@ import React from "react";
 import AndroidDevelopmentSection from "@/components/services/andriod";
 
 export const metadata: Metadata = {
-  title: "Android Development Services | AxoraWeb",
-  description: "Get top-tier Android app development services from AxoraWeb using Kotlin, Java, and modern mobile frameworks.",
+  title: "Mobile App Development | AxoraWeb – iOS & Android App Experts",
+  description:
+    "AxoraWeb builds high-performance mobile apps for iOS and Android. From MVP to enterprise-level apps, we deliver scalable and user-friendly mobile solutions.",
   keywords: [
-    "android development",
     "mobile app development",
-    "kotlin development",
-    "java android apps",
-    "android frameworks",
-    "custom android solutions",
-    "android app design",
-    "android software development",
-    "AxoraWeb"
+    "iOS development",
+    "Android app development",
+    "React Native developers",
+    "Flutter developers",
+    "cross-platform apps",
+    "AxoraWeb",
+    "Ali Hamza",
+    "custom mobile apps",
   ],
   authors: [{ name: "Ali Hamza", url: "https://axoraweb.vercel.app" }],
+  creator: "Ali Hamza",
+  publisher: "AxoraWeb",
+  applicationName: "AxoraWeb",
+  metadataBase: new URL("https://axoraweb.vercel.app"),
   openGraph: {
-    title: "Android Development Services | AxoraWeb",
-    description: "Get top-tier Android app development services from AxoraWeb using Kotlin, Java, and modern mobile frameworks.",
-    url: "https://axoraweb.vercel.app/services/android-development",
+    title: "Mobile App Development | AxoraWeb – iOS & Android App Experts",
+    description:
+      "We create sleek, scalable, and secure mobile apps using the latest technologies. Work with AxoraWeb to turn your app idea into reality.",
+    url: "https://axoraweb.vercel.app/mobile-app-development",
     siteName: "AxoraWeb",
+    images: [
+      {
+        url: "https://axoraweb.vercel.app/og-mobile.png", // Add this image to /public
+        width: 1200,
+        height: 630,
+        alt: "AxoraWeb Mobile App Development",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Mobile App Development | AxoraWeb",
+    description:
+      "AxoraWeb builds custom mobile apps that delight users and scale with your business. Hire top mobile developers today.",
+    site: "@axoraweb",
+    creator: "@alihamza",
+    images: ["https://axoraweb.vercel.app/og-mobile.png"],
+  },
+  alternates: {
+    canonical: "https://axoraweb.vercel.app/mobile-app-development",
+    languages: {
+      "en-US": "https://axoraweb.vercel.app/mobile-app-development",
+    },
   },
   robots: {
     index: true,
     follow: true,
-  },
-  alternates: {
-    canonical: "https://axoraweb.vercel.app/services/android-development",
-    languages: {
-      "en-US": "https://axoraweb.vercel.app/services/android-development",
-      "es-ES": "https://axoraweb.vercel.app/es/services/android-development",
-      "fr-FR": "https://axoraweb.vercel.app/fr/services/android-development",
-      "de-DE": "https://axoraweb.vercel.app/de/services/android-development",
-      "zh-CN": "https://axoraweb.vercel.app/zh/services/android-development",
-      "ar-SA": "https://axoraweb.vercel.app/ar/services/android-development",
-      "hi-IN": "https://axoraweb.vercel.app/hi/services/android-development",
-      "ja-JP": "https://axoraweb.vercel.app/ja/services/android-development",
-      "pt-BR": "https://axoraweb.vercel.app/pt/services/android-development",
+    googleBot: {
+      index: true,
+      follow: true,
     },
   },
+  category: "technology",
 };
+
 
 export default function AndroidDevelopmentPage() {
   return (

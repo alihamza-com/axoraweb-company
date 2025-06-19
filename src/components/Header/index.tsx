@@ -5,6 +5,11 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
+import { Metadata } from "next";
+
+
+<link rel="canonical" href="https://axoraweb.vercel.app" />
+
 import menuData from "./menuData";
 
 const Header = () => {

@@ -5,35 +5,65 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Us | AxoraWeb - Web, App & Software Development Experts",
+  title: "About Us | AxoraWeb – Custom Software & App Development Company",
   description:
-    "Learn about AxoraWeb — a passionate team of developers, designers, and strategists dedicated to building high-quality digital solutions for startups and enterprises.",
+    "Learn more about AxoraWeb’s mission, team, and expertise in custom web, mobile app, and software development for startups and enterprises.",
   keywords: [
-    "about us",
-    "web development",
-    "app development",
-    "software development",
-    "custom software",
-    "full-stack development", 
-    "digital solutions",
-    "tech company",
+    "About AxoraWeb",
+    "AxoraWeb team",
+    "software company",
+    "tech startup",
     "Ali Hamza",
-    "AxoraWeb",
+    "custom software experts",
+    "web development Pakistan",
+    "mobile app agency",
   ],
-  authors: [{ name: "Ali Hamza", url: "https://ali.hamza.dev" }],
+  authors: [{ name: "Ali Hamza", url: "https://axoraweb.vercel.app" }],
+  creator: "Ali Hamza",
+  publisher: "AxoraWeb",
+  applicationName: "AxoraWeb",
+  metadataBase: new URL("https://axoraweb.vercel.app"),
   openGraph: {
-    title: "About Us | AxoraWeb - Web, App & Software Development Experts",
+    title: "About Us | AxoraWeb – Custom Software & App Development Company",
     description:
-      "Learn about AxoraWeb — a passionate team of developers, designers, and strategists dedicated to building high-quality digital solutions for startups and enterprises.",
-    url: "https://axoraweb.com/about",
+      "Get to know AxoraWeb—our values, our team, and how we build world-class custom software solutions.",
+    url: "https://axoraweb.vercel.app/about",
     siteName: "AxoraWeb",
-  }
-
-  // other metadata
-  , robots: {
+    images: [
+      {
+        url: "https://axoraweb.vercel.app/og-about.png", // You should create this image
+        width: 1200,
+        height: 630,
+        alt: "AxoraWeb About Us",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About Us | AxoraWeb – Custom Software & App Development",
+    description:
+      "Discover how AxoraWeb helps startups and enterprises with custom software, mobile apps, and web development.",
+    site: "@axoraweb",
+    creator: "@alihamza",
+    images: ["https://axoraweb.vercel.app/og-about.png"],
+  },
+  alternates: {
+    canonical: "https://axoraweb.vercel.app/about",
+    languages: {
+      "en-US": "https://axoraweb.vercel.app/about",
+    },
+  },
+  robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
   },
+  category: "technology",
 };
 
 const AboutPage = () => {
