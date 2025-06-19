@@ -28,6 +28,7 @@ export const metadata: Metadata = {
   publisher: "AxoraWeb",
   applicationName: "AxoraWeb",
   metadataBase: new URL("https://axoraweb.vercel.app"),
+
   openGraph: {
     title: "AxoraWeb | Custom Software, Web & Mobile App Development Company",
     description:
@@ -70,7 +71,18 @@ export const metadata: Metadata = {
     },
   },
   category: "technology",
+  themeColor: "#ffffff",
+  icons: {
+    icon: "/favicon.ico", // Ensure this icon exists in your public folder
+    apple: "/apple-touch-icon.png", // Optional: Add an Apple touch icon
+  },
+  verification: {
+    google: "TZp71VhR5nZDN3h3twmuPl7wVsOnFTTMM4lG8J6LTeM", // Replace with your actual Google verification code
+    
+  },
+  
 };
+
 
 export default function Home() {
   return (
