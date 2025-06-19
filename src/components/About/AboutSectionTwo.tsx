@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const AboutSectionTwo = () => {
   return (
-    <section className="py-16 md:py-20 lg:py-28">
+    <section className="py-16 md:py-20 lg:py-28 dark:bg-gray-900 dark:text-white">
       <div className="container">
         <div className="-mx-4 flex flex-wrap items-center">
           <div className="w-full px-4 lg:w-1/2">
@@ -24,13 +24,13 @@ const AboutSectionTwo = () => {
               />
             </div>
           </div>
-          <div className="w-full px-4 lg:w-1/2">
+          <div className="w-full px-4 lg:w-1/2 dark" >
             <div className="max-w-[470px]">
-              <div className="mb-9">
+              <div className="mb-9 ">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
                   Clean, Scalable Code
                 </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed dark:text-white">
                 At AxoraWeb, we write code that&apos;s not just functional — it&apos;s future-proof. Built with scalability, maintainability, and performance in mind, our solutions ensure long-term success for your business.
                 </p>
               </div>
@@ -38,7 +38,7 @@ const AboutSectionTwo = () => {
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
                   Dedicated Client Support
                 </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed dark:text-white">
                   We treat every project like a partnership. Our support is proactive, responsive, and rooted in your success — from kickoff to launch and beyond.
                 </p>
               </div>
@@ -46,7 +46,7 @@ const AboutSectionTwo = () => {
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
                   Built with Next.js & Tailwind
                 </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed dark:text-white">
                   Leveraging the power of Next.js and Tailwind CSS, we craft lightning-fast, SEO-optimized web experiences that look and perform flawlessly across all devices.
                 </p>
               </div>

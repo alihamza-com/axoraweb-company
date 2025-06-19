@@ -73,7 +73,7 @@ export const metadata: Metadata = {
 export default function WebDevelopmentPage() {
   return (
     <section className="mt-20 bg-white dark:bg-gray-900 text-black dark:text-white px-4 py-12">
-<WebDevelopmentSection />      
+   <WebDevelopmentSection />      
 
     </section>
   );

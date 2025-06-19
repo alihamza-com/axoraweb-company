@@ -71,7 +71,7 @@ export const metadata: Metadata = {
     },
   },
   category: "technology",
-  themeColor: "#ffffff",
+  
   icons: {
     icon: "/favicon.ico", // Ensure this icon exists in your public folder
     apple: "/apple-touch-icon.png", // Optional: Add an Apple touch icon

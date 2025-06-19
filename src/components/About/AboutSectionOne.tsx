@@ -9,7 +9,7 @@ const checkIcon = (
 
 const AboutSectionOne = () => {
   const List = ({ text }) => (
-    <p className="text-body-color mb-5 mt-5 flex items-center text-lg font-medium">
+    <p className="text-body-color mb-5 mt-5 flex items-center text-lg font-medium leading-relaxed text-gray-700 dark:text-gray-300">
       <span className="bg-primary/10 text-primary mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md">
         {checkIcon}
       </span>
@@ -20,7 +20,7 @@ const AboutSectionOne = () => {
   return (
     <section id="about" className="pt-16 md:pt-20 lg:pt-28">
       <div className="container">
-        <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
+        <div className="border-b border-body-color/[.15] pb-16 dark:border-white md:pb-20 lg:pb-28">
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
@@ -29,9 +29,9 @@ const AboutSectionOne = () => {
                 mb="44px"
               />
 
-              <div className="mb-12 max-w-[570px] lg:mb-0" data-wow-delay=".15s">
-                <div className="mx-[-12px] flex flex-wrap">
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
+              <div className="mb-12 max-w-[570px] lg:mb-0 dark:text-white" data-wow-delay=".15s">
+                <div className="mx-[-12px] flex flex-wrap dark:text-white">
+                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2 dark:text-white">
                     <List text="Full-stack expertise" />
                     <List text="React & Next.js" />
                     <List text="Tailored web solutions" />
