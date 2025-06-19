@@ -1,5 +1,6 @@
 "use client";
 
+
 import { Providers } from "./providers";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
@@ -28,7 +29,11 @@ export default function RootLayout({
 }) {
   return (
     <html suppressHydrationWarning lang="en">
-      <head />
+       <head>
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="apple-touch-icon" href="/images/logo.png" />
+        <meta name="theme-color" content="#edeff3" />
+      </head>
       <body className={`bg-[#FCFCFC] dark:bg-black ${inter.className}`}>
         <LoaderProvider>
           <InitLoader />
