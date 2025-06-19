@@ -27,11 +27,11 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://axoraweb.vercel.app"),
   openGraph: {
     title: "SEO Services | AxoraWeb – Rank Higher & Grow Organically",
-    description:
-      "Boost your search rankings and grow your business with AxoraWeb’s expert SEO services, including audits, optimization, and content strategy.",
-    url: "https://axoraweb.vercel.app/seo-services",
-    siteName: "AxoraWeb",
     images: [
+      {
+        url: '/favicon.ico',
+        alt: 'Favicon Icon',
+      },
       {
         url: "https://axoraweb.vercel.app/og-seo.png", // Add this to /public
         width: 1200,
@@ -39,6 +39,10 @@ export const metadata: Metadata = {
         alt: "AxoraWeb SEO Services",
       },
     ],
+    description:
+      "Boost your search rankings and grow your business with AxoraWeb’s expert SEO services, including audits, optimization, and content strategy.",
+    url: "https://axoraweb.vercel.app/seo-services",
+    siteName: "AxoraWeb",
     locale: "en_US",
     type: "website",
   },
